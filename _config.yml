@@ -1,28 +1,40 @@
-name: CuriousCustoms
-favicon: null
-layout_spectrum: 0.9718431774526834
-typography_spectrum: 0.3491656379774213
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#bcaa9c'
-    - '#8bb7de'
-    - '#6d625c'
-    - '#1e1c1f'
-    - '#fcdfbb'
-  brandStrength: 0.31836203509010375
-  lightness: 0.47821633727289736
-  saturation: 0.42830929858610034
-  rhythmicContrast: 0.4400528387632221
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.4283093
+  brandStrength: 0.3183620350901037
+  lightness: 0.4782164
+  brandColors:
+    - '#000000'
+    - '#FFFFFF'
+    - '#4F3B23'
+    - '#2B1D10'
+    - '#A36B3A'
+  rhythmicContrast: 0.7293907
+typography_spectrum: 0.3566308
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 1
+favicon: null
+name: CuriousCustoms
